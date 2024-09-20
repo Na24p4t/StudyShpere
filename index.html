@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySphere</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/logo.png" alt="StudySphere Logo" class="logo">
+            <h1>StudySphere</h1>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Empowering Students to Learn Anytime, Anywhere!</h2>
+        <p>Explore a wide range of courses and master new skills at your own pace.</p>
+        <a href="#courses" class="cta-button">Explore Courses</a>
+    </section>
+
+    <section id="courses">
+        <h2>Available Courses</h2>
+        <div class="course-list">
+            <div class="course-card">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, and JavaScript.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <h3>Data Science</h3>
+                <p>Master data analytics and machine learning.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <h3>Graphic Design</h3>
+                <p>Explore Adobe Photoshop, Illustrator, and more.</p>
+                <button>Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About StudySphere</h2>
+        <p>StudySphere is an online education platform that provides interactive and engaging learning experiences for students worldwide. Our mission is to democratize education and help students excel in their chosen fields.</p>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginStatus"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 StudySphere. All rights reserved.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

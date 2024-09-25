@@ -1,24 +1,12 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-}
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-}
-body {
-    background-color: #0a2848; /* Dark Blue Background */
-    color: #ffffff; /* White Text */
-}
-a {
-    color: #00aaff; /* Light Blue for Links */
-}
-button {
-    background-color: #ffcc00; /* Gold Buttons */
-    color: #0a2848;
-}
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #fff;
+}
 
 header {
     background-color: #2a4365; /* Dark Blue */
@@ -40,14 +28,6 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
 
 .logo {
     width: 50px;
@@ -85,14 +65,15 @@ nav ul li a {
     justify-content: space-around;
     margin-top: 1.5rem;
 }
-.card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 10px;
-}
 
+.course-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #2a4365; /* Dark Text */
+}
 
 footer {
     background-color: #2a4365; /* Dark Blue */
@@ -106,14 +87,4 @@ footer {
     text-align: center;
     background-color: #f1f5f9;
     color: #2a4365; /* Dark Blue */
-}
-
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
 }
